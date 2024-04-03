@@ -1,0 +1,95 @@
+:root {
+    /* color */
+    --one-color: #fbf8dd;
+    --two-color: #a34343;
+    --three-color: #fb9ad1;
+    --four-color: #fa7070;
+    --five-color: #86469c;
+    --sis-color: #b3c8cf;
+    --seven-color: #9b3922;
+    --eight-color: #e9c874;
+    --nine-color: #c08b5c;
+    --ten-color: #bed7dc;
+}
+
+body {
+    background-image: url(../images/download.jpeg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+header h1 {
+    color: var(--nine-color);
+}
+header h1:first-child::first-letter {
+    font-size: 4.3rem;
+    font-weight: bold;
+    color: var(--seven-color);
+}
+.go .S-photo {
+    display: none;
+}
+.go:hover .F-photo {
+    display: none;   
+}
+.go:hover .S-photo {
+    display: inline;
+}
+.exam h2 {
+    color: var(--nine-color);
+}
+.exam h2:first-child::first-letter {
+    font-size: 3.8rem;
+    font-weight: bold;
+    color: var(--seven-color);
+}
+p.note .two {
+    display: none;
+    color: var(--four-color);
+    font-size: 36px;
+}
+p.note .one {
+    font-size: 30px;
+    color: var(--four-color);
+}
+
+p.note:hover .one {
+    display: none;   
+}
+p.note:hover .two {
+    display: inline;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+figcaption {
+    color: var(--seven-color);
+}
+.BTS {
+    color: var(--seven-color);
+}
+#email {
+    background-color: var(--sis-color);
+}
+#github {
+    background-color: var(--five-color);
+}
+#facebook {
+    background-color: var(--three-color);
+}
+.nn {
+    background-color: var(--sis-color);
+    color: var(--seven-color);
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.nn:hover {
+    background-color: var(--eight-color);
+}
+
+
