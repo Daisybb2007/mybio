@@ -11,6 +11,11 @@
     --nine-color: #c08b5c;
     --ten-color: #bed7dc;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     background-image: url(../images/download.jpeg);
@@ -22,6 +27,7 @@ body {
 }
 header h1 {
     color: var(--nine-color);
+    text-align: center;
 }
 header h1:first-child::first-letter {
     font-size: 4.3rem;
@@ -39,57 +45,82 @@ header h1:first-child::first-letter {
 }
 .exam h2 {
     color: var(--nine-color);
+    text-align: center;
 }
 .exam h2:first-child::first-letter {
     font-size: 3.8rem;
     font-weight: bold;
     color: var(--seven-color);
 }
-p.note .two {
+.note {
+    text-align: center;
+}
+.note .two {
     display: none;
     color: var(--four-color);
     font-size: 36px;
 }
-p.note .one {
+.note .one {
     font-size: 30px;
     color: var(--four-color);
 }
 
-p.note:hover .one {
+.note:hover .one {
     display: none;   
 }
-p.note:hover .two {
+.note:hover .two {
     display: inline;
 }
 img {
     width: 200px;
     height: 200px;
+    margin-left: 42%;
 }
 figcaption {
     color: var(--seven-color);
+    text-align: center;
 }
 .BTS {
     color: var(--seven-color);
+    text-align: center;
 }
 #email {
     background-color: var(--sis-color);
+    margin-left: 20%;
+    margin-right: 20%;
 }
 #github {
     background-color: var(--five-color);
+    margin-left: 20%;
+    margin-right: 20%;
 }
 #facebook {
     background-color: var(--three-color);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+footer {
+    color: #fb9ad1;
+    text-align: center;
 }
 .nn {
+    color: var(--one-color);
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.5s ease-in-out;
     background-color: var(--sis-color);
-    color: var(--seven-color);
-    padding: 10px 30px;
-    margin-bottom: 10px;
+    border: 5px solid var(--seven-color);
     text-decoration: none;
-    margin-left: 30px;
 }
 .nn:hover {
+    border-color: var(--five-color);
     background-color: var(--eight-color);
+    color: var(--seven-color);
 }
 
 
